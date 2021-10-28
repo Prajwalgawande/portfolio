@@ -111,7 +111,7 @@ body{
     line-height:34px;
     height:34px;
     width:34px;
-    font-size:14px
+    font-size:14px;
   }
   .social-icons a.facebook:hover
   {
@@ -144,8 +144,9 @@ body{
     }
     .header{
         display: block;
-        margin-right: 5px;
+        
     }
+  
     body{
         background-color: #f4f4f4;
     }
@@ -173,7 +174,7 @@ body{
         background-color: #fff;
         box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
         position: fixed;
-        width: 100%;
+        width: 90%;
         z-index: 3;
       }
       
@@ -299,4 +300,28 @@ body{
         }
       }
       
+  }
+  /*
+  
+  contact form 
+  
+  */
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 70px 30px;
+    
+  }
+  
+ 
+  .contact-form h1{
+    margin-bottom: 10px;
+  }
+  .contact-form textarea{
+    resize: none;
+    height: 30%;
+  }
+  .contact-form label{
+    padding-top: 10px;
   }
